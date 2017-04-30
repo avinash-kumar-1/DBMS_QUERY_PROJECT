@@ -1,0 +1,22 @@
+ID	name	course_name	course_id	sec_id	salary	year
+1	Shrinivash	cse	cse-102	1	20000	2009
+2	Abhishek	cse	cse-201	1	30000	2010
+3	Rajesh	cse	cse-120	2	30000	2011
+4	Avinash	cse	cse-210	1	50000	2001
+5	Ramavatar	eee	eee-201	1	20000	2012
+6	Shekhar	ece	ece-103	2	40000	2014
+7	Avijit	cse	cse-203	3	100000	2015
+8	Murari	che	che-201	1	30000	2016
+9	Asutosh	sce	sce-201	2	20000	2012
+10	Pradeep	cse	cse-203	4	100000	2016
+11	Shrinivash	cse	cse-105	3	20000	2009
+12	Abhishek	cse	cse-201	1	30000	2010
+13	Rajesh	cse	cse-120	2	30000	2011
+14	Avinash	cse	cse-210	1	50000	2001
+15	Ramavatar	eee	eee-201	1	20000	2012
+16	Shekhar	ece	ece-103	2	40000	2014
+17	Avijit	cse	cse-203	3	100000	2015
+18	Murari	che	che-201	1	30000	2016
+19	Asutosh	sce	sce-201	2	20000	2012
+20	Pradeep	cse	cse-203	4	100000	2016
+ 

@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1473956327 source:f:\genrel\dbmsproject\dbms2\attributes.cpp
+	<iostream>
+	<string>
+	<vector>
+
+1473956334 source:f:\genrel\dbmsproject\dbms2\lower.cpp
+	<iostream>
+	<string>
+
+1473960550 source:f:\genrel\dbmsproject\dbms2\main.cpp
+	<iostream>
+	<string>
+	<vector>
+	<bits/stdc++.h>
+
+1473954736 source:f:\genrel\dbmsproject\dbms2\parse.cpp
+	<iostream>
+	<string>
+
+1473956348 source:f:\genrel\dbmsproject\dbms2\table.cpp
+	<iostream>
+	<string>
+	<vector>
+
+1473956339 source:f:\genrel\dbmsproject\dbms2\select.cpp
+	<iostream>
+	<string>
+	<vector>
+	<F:\Genrel\DBMSPROJECT\dbms2\attributes.cpp>
+	<F:\Genrel\DBMSPROJECT\dbms2\table.cpp>
+	<F:\Genrel\DBMSPROJECT\dbms2\lower.cpp>
+	<fstream>
+	<sstream>
+
+1473967041 source:f:\genrel\dbmsproject\dbms2\main2.cpp
+	<iostream>
+	<vector>
+	<string>
+

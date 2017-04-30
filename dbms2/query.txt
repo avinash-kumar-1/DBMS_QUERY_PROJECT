@@ -1,0 +1,36 @@
+for select:
+1:select ID=5 from ins1
+2:select name=Avijit from ins1
+3:select ID=7 OR name=Murari from ins1
+4:select course_id=cse-102 from ins1
+5:select sec_id=2 from ins1
+
+for project:
+1:project name from ins1;
+2:project ID,name from ins1;
+3:project ID,name,course_id,sec_id,year from ins1;
+4:project all from ins1;
+5:project * from ins1;
+
+for rename:
+1:rename Id,f_name,location,course student
+2:rename location,Id,f_name,course student
+
+for union:
+1:select ID=5 from ins1 union select ID=7 from ins1
+2:select ID=5 OR name=Avijit from ins1 union select ID=7 OR name=Murari from ins1
+3:select ID=5 OR name=Avijit OR sec_id=1 from ins1 union select ID=7 OR name=Murari OR sec_id=4 from ins1
+4:select ID=5,name=Avijit,sec_id=1 from ins1 union select ID=7, name=Murari,sec_id=3 from ins1
+
+for intersect:
+1:select ID=10 from ins1 intersect select name=pradeep from ins1
+2:select ID=5 OR name=Avijit from ins1 intersect select ID=7 OR name=Murari from ins1
+3:select ID=5 OR name=Avijit OR sec_id=1 from ins1 intersect select ID=7 OR name=Murari OR sec_id=4 from ins1
+4:select ID=5,name=Avijit,sec_id=1 from ins1 intersect select ID=7, name=Murari,sec_id=3 from ins1
+
+for cartesion:
+1:select ID=5 from ins1 cartesion select ID=7 from ins1
+2:select ID=5 OR name=Avijit from ins1 cartesion select ID=7 OR name=Murari from ins1
+3:select ID=5 OR name=Avijit OR sec_id=1 from ins1 cartesion select ID=7 OR name=Murari OR sec_id=4 from ins1
+4:select ID=5,name=Avijit,sec_id=1 from ins1 cartesion select ID=7, name=Murari,sec_id=3 from ins1
+
